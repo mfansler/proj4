@@ -1,6 +1,6 @@
-0a10c1b90a6803ec451eb7da7375f5c3 *DESCRIPTION
+8fcd5891473ed5db5c34d683d5b24e1b *DESCRIPTION
 7265cdad5eaf61ed97b9bdd593fc1ef7 *NAMESPACE
-f6cf536d07bad22906459338afbf49c6 *NEWS
+f2a3fd2314a6fe6347919c52c5cb193a *NEWS
 7ff3c30000313efe8f19d11b9f5fc6af *R/0pkgname.R
 3fa79457a9deba1aaff07842222a44ea *R/project.R
 38aee67221b5d479fb56c055a9afcce0 *R/tools.R
@@ -8,12 +8,9 @@ c3a96c81c42972be3dd56158a4452bc6 *R/transform.R
 9d1470d4bda94311e08f92526146b36c *R/zzz.R
 2465f019ee88fa51636098ee51289b4b *configure
 f6a4f3a1e526eb1ddfe56289f5164039 *configure.ac
+54ff875657362fed03f36397067d1dad *configure.win
 b62ee73a1e94e641022e6992a675beeb *man/project.Rd
 411fc228c57633439142d272695e6728 *man/transform.Rd
 60b61ab28ace9f59732aa9f228c747c8 *src/Makevars.in
-2a96853842b8f423c6f0dcedcca2f474 *src/Makevars.win
+db6cd24026a8b0748b5edfd4c6c30e62 *src/Makevars.win
 27f6fb92049871f5a087d9338c77e570 *src/p4.c
-db0055372df3f1ed572be51c914de412 *src/win32/libproj.a
-5b1f920c8342ac7981eaeb95e5052b47 *src/win32/proj_api.h
-73a36aa1be56f397730d91c25314e68f *src/win64/libproj.a
-5b1f920c8342ac7981eaeb95e5052b47 *src/win64/proj_api.h
