@@ -1,5 +1,5 @@
 Package: proj4
-Version: 1.0-8
+Version: 1.0-8.1
 Title: A simple interface to the PROJ.4 cartographic projections
         library
 Depends: R (>= 2.0.0)
@@ -12,6 +12,7 @@ Description: A simple interface to lat/long projection and datum
 SystemRequirements: proj 4.4.6 or higher (http://proj.maptools.org/)
 License: GPL-2
 URL: http://www.rforge.net/proj4/
-Packaged: 2012-08-05 01:54:11 UTC; svnuser
+Packaged: 2019-09-05 17:05:50 UTC; hornik
 Repository: CRAN
-Date/Publication: 2012-08-05 06:07:47
+Date/Publication: 2019-09-07 17:32:41 UTC
+NeedsCompilation: yes

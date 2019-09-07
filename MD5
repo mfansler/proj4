@@ -1,4 +1,4 @@
-8fcd5891473ed5db5c34d683d5b24e1b *DESCRIPTION
+787369039ddb1f4ff6ad41a2361d1ec6 *DESCRIPTION
 7265cdad5eaf61ed97b9bdd593fc1ef7 *NAMESPACE
 f2a3fd2314a6fe6347919c52c5cb193a *NEWS
 7ff3c30000313efe8f19d11b9f5fc6af *R/0pkgname.R
@@ -6,8 +6,8 @@ f2a3fd2314a6fe6347919c52c5cb193a *NEWS
 38aee67221b5d479fb56c055a9afcce0 *R/tools.R
 c3a96c81c42972be3dd56158a4452bc6 *R/transform.R
 9d1470d4bda94311e08f92526146b36c *R/zzz.R
-2465f019ee88fa51636098ee51289b4b *configure
-f6a4f3a1e526eb1ddfe56289f5164039 *configure.ac
+c176db826db4efe075827c09c53eb3ae *configure
+863bd301554cdff60f0e87232180edf8 *configure.ac
 54ff875657362fed03f36397067d1dad *configure.win
 b62ee73a1e94e641022e6992a675beeb *man/project.Rd
 411fc228c57633439142d272695e6728 *man/transform.Rd

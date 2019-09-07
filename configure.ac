@@ -19,7 +19,7 @@ RBIN="${R_HOME}/bin/R"
 LIBS="${LIBS} ${PKG_LIBS}"
 # for CPPFLAGS we will superfluously double R's flags
 # since we'll set PKG_CPPFLAGS with this, but that shouldn't hurt
-CPPFLAGS="${CPPFLAGS} ${PKG_CPPFLAGS}"
+CPPFLAGS="${CPPFLAGS} ${PKG_CPPFLAGS} -DACCEPT_USE_OF_DEPRECATED_PROJ_API_H"
 
 proj4ok=yes
 AC_CHECK_HEADERS(proj_api.h,,proj4ok=no)
