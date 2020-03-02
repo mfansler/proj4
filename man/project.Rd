@@ -30,7 +30,8 @@ project(xy, proj, inverse = FALSE, degrees = TRUE, silent = FALSE,
   The input can be a list of two or more vectors (if the list contains
   more than two entries, only first two entries are used and a warning
   is issued), a two-dimensional matrix or array (the number of columns
-  or rows must be exactly two) or a vector of the length 2. If the input
+  or rows must be exactly two) or a vector of the length 2. For a 2x2
+  input the columns are taken as \code{x} and \code{y}. If the input
   is a list then the result will be a list with the entries named
   \code{x} and \code{y}, otherwise the result is a matrix with two
   columns.
@@ -47,9 +48,6 @@ project(xy, proj, inverse = FALSE, degrees = TRUE, silent = FALSE,
   or a named vector or list that will be composed into parameters:
   \code{list(proj="lcc", lat_1=33, lat_2=45, lat_0=39, lon_0=-96)}
 
-  A list of some commonly used projections can be found at
-  \url{http://www.remotesensing.org/geotiff/proj_list/}
-  
   if \code{degrees} is \code{TRUE} then the latitude and longitude are
   expected to be in degrees, if \code{FALSE} then in radians.
 }
@@ -57,7 +55,7 @@ project(xy, proj, inverse = FALSE, degrees = TRUE, silent = FALSE,
   A two column matrix or list of coordinates. If the input was a list
   then the output will be a list, otherwise a matrix.
 }
-\references{\url{http://www.remotesensing.org/proj/}}
+\references{\url{https://proj.org/}}
 
 \examples{
 ## this is just very simple, because we don't want to depend on

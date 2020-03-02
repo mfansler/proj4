@@ -17,12 +17,12 @@ project <- function(xy, proj, inverse=FALSE, degrees=TRUE, silent=FALSE, ellps.d
         } else {
             if (length(d) != 2 || (d[1]!=2 && d[2]!=2))
                 stop("input must be 2-dimensional")
-            if (d[1]==2) {
-                x <- xy[1,]
-                y <- xy[2,]
-            } else {
+            if (d[2]==2) { ## use columns by default if available
                 x <- xy[,1]
                 y <- xy[,2]
+            } else {
+                x <- xy[1,]
+                y <- xy[2,]
             }
         }
     }
@@ -40,7 +40,7 @@ project <- function(xy, proj, inverse=FALSE, degrees=TRUE, silent=FALSE, ellps.d
     f <- 0:0
     if (inverse) f <- f + 1:1
     if (degrees) f <- f + 2:2
-    res <- .C("project", as.character(proj),                
+    res <- .C(project_, as.character(proj),
               as.integer(n), x=as.double(x), y=as.double(y),
               f, NAOK=TRUE, PACKAGE=.package.name)
     if (is.list(xy))
