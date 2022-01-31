@@ -1,5 +1,5 @@
 Package: proj4
-Version: 1.0-10.1
+Version: 1.0-11
 Title: A simple interface to the PROJ.4 cartographic projections
         library
 Depends: R (>= 2.0.0)
@@ -13,6 +13,6 @@ SystemRequirements: proj 4.4.6 or higher (http://proj.maptools.org/)
 License: GPL-2
 URL: http://www.rforge.net/proj4/
 NeedsCompilation: yes
-Packaged: 2020-07-01 06:54:03 UTC; ripley
+Packaged: 2022-01-31 04:38:45 UTC; rforge
 Repository: CRAN
-Date/Publication: 2021-01-26 10:10:52 UTC
+Date/Publication: 2022-01-31 13:39:39 UTC
