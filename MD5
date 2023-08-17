@@ -1,6 +1,6 @@
-d8c6c56a3c16f5e206967691e1aeb9ec *DESCRIPTION
+cf79f2a507994aa1f4806d1a9a6d76eb *DESCRIPTION
 b05000dd2a07395738c6997ddf6ba3ae *NAMESPACE
-4f8b8c9f91bb489369b6d8c97f0d5a93 *NEWS
+6fa17e3451f306bd47028780bbff4a57 *NEWS
 7ff3c30000313efe8f19d11b9f5fc6af *R/0pkgname.R
 1abca6292e32fac1a2359150b32d1987 *R/project.R
 38aee67221b5d479fb56c055a9afcce0 *R/tools.R
@@ -11,7 +11,7 @@ b0e60928321d296c788fcfbb8b11f734 *configure.ac
 1ef5ca68785be55626979f1d07803c58 *man/project.Rd
 60da9c345d36c7ce15c7ebac5c9fecad *man/transform.Rd
 60b61ab28ace9f59732aa9f228c747c8 *src/Makevars.in
-b13ef0f5b094ce6b3f8bcf62d8a684bc *src/Makevars.ucrt
+90f67d9914ff69bcb8417820e6d26b4d *src/Makevars.ucrt
 db6cd24026a8b0748b5edfd4c6c30e62 *src/Makevars.win
 546de666fd89f6bc33ef3845f1cd45eb *src/p4.c
 c7915537749cefff6a26f12e25139ee3 *src/reg.c
